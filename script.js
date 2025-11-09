@@ -9,4 +9,4 @@ const max3 = (cislo1, cislo2, cislo3) => {
      }
   }
 
- document.body.innerHTML += max3 (25, 76, 50);
+ document.body.innerHTML += `<p>Nejvyšší číslo ze tří zadaných je: ${max3 (25, 76, 50)} </p>`;
